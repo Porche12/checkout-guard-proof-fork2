@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   proof:
-    if: github.event.pull_request.head.repo.full_name == 'Porche12/checkout-guard-proof-fork'
+    if: github.event.pull_request.head.repo.full_name == 'Porche12/checkout-guard-proof-fork2'
     runs-on: ubuntu-latest
     steps:
       - name: Check out the owned test branch
